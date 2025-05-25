@@ -37,7 +37,7 @@ on:
       #   required: false
       #   type: string  # This input is required if 'Other' is chosen
       version:
-        description: '自定义版本名(如5.10.198后面的字符/留空则使用默认版本号)'
+        description: '自定义版本名(如5.10.198后面的字符/留空则使用默认版本号)(若要与 avbroot 一起使用 请遵循 (android[0-9]+)-([0-9]+)-)'
         required: false
         type: string
       use_zram:
